@@ -15,7 +15,9 @@
       <div class="container">
         <div class="header__top flex">
           <div class="logo-wrap">
-            <img class="logo" src="img/logo.png" alt="Логотип" />
+            <a href="" class="logo-link">
+              <img class="logo" src="img/logo.png" alt="Логотип" />
+            </a>
             <span class="hours">Ежедневно с 9:00 до 21:00</span>
           </div>
           <div class="search-wrap">
@@ -26,7 +28,7 @@
                 placeholder="Поиск по сайту"
               />
             </form>
-            <span class="search-form__open">
+            <span class="search-open">
               <svg
                 width="24"
                 height="24"
@@ -134,38 +136,10 @@
     <main class="main">
       <section class="hero">
         <div class="container hero__container">
-          <div class="hero__left">
-            <h1 class="hero__title">
-              Приём лома чёрных и&nbsp;цветных металлов
-              <span class="hero__title-mod">в&nbsp;Санкт-Петербурге</span>
-            </h1>
-            <div class="hero__btns">
-              <div class="hero__btns-top">
-                <button class="btn hero__btn btn--stroke btn-reset">
-                  Цены на сегодня
-                </button>
-                <button class="btn hero__btn btn--stroke btn-reset">
-                  Как сдать металл
-                </button>
-              </div>
-              <div class="hero__btns-bottom">
-                <button class="btn hero__btn btn--stroke btn-reset">
-                  Отзывы
-                </button>
-                <button class="btn hero__btn btn--stroke btn-reset">
-                  Акции
-                </button>
-              </div>
-            </div>
-            <button class="btn hero__btn btn--fill btn-reset">
-              Оставить заявку
-            </button>
-          </div>
-          <div class="hero__right">
-            <picture class="hero__img">
-              <img src="img/main-img.png" alt="Грузовик" />
-            </picture>
-          </div>
+          <h1 class="hero__title">
+            Приём лома чёрных и цветных металлов
+            <span class="hero__title-mod">в&nbsp;Санкт-Петербурге</span>
+          </h1>
           <button class="video-btn btn-reset">
             <img
               class="video-btn-img"
@@ -173,31 +147,50 @@
               alt="Посмотреть видео"
             />
           </button>
+          <div class="hero__btns">
+            <div class="hero__btns-top">
+              <button class="btn hero__btn btn--stroke btn-reset">
+                Цены на сегодня
+              </button>
+              <button class="btn hero__btn btn--stroke btn-reset">
+                Как сдать металл
+              </button>
+            </div>
+            <div class="hero__btns-bottom">
+              <button class="btn hero__btn btn--stroke btn-reset">
+                Отзывы
+              </button>
+              <button class="btn hero__btn btn--stroke btn-reset">Акции</button>
+            </div>
+          </div>
+          <button class="btn hero__btn btn--fill btn-reset">
+            Оставить заявку
+          </button>
         </div>
       </section>
 
       <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="advantages__list">
-            <li class="advantages__item">
+          <ul class="advantages__list list-reset flex">
+            <li class="advantages__item advantages__item-pay">
               <p class="advantages__title">Моментальный расчёт</p>
               <p class="advantages__descr">
-                Мгновенная оплата по&nbsp;безналичному расчету на&nbsp;месте
+                Мгновенная оплата по&nbsp;безналичному расчету&nbsp;на месте
                 приёма
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item-price">
               <p class="advantages__title">Высокая цена закупки</p>
               <p class="advantages__descr">
                 Максимальная высокая цена закупки лома на&nbsp;рынке
                 Санкт-Петербурга
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item-auto">
               <p class="advantages__title">Собственный автопарк</p>
               <p class="advantages__descr">
-                Свой автопарк, в&nbsp;составе которого более 30&nbsp;единиц
+                Свой автопарк, в&nbsp;составе которого более&nbsp;30&nbsp;единиц
                 спецтехники
               </p>
             </li>
@@ -207,33 +200,35 @@
 
       <section class="services">
         <div class="container">
-          <h2 class="section-title services__title">Комплексный сервис</h2>
-          <div class="services__text">
-            <p class="services__descr">
-              Компания &laquo;ЭКОЛОМ&raquo;&nbsp;&mdash; ваш надежный партнер
-              по&nbsp;переработке металлолома в&nbsp;Санкт-Петербурге.
-              Мы&nbsp;стремимся к&nbsp;экологической ответственности, предлагая
-              выгодные условия и профессиональный сервис на&nbsp;всех этапах
-              работы. Гарантируем честность, прозрачность и&nbsp;высокие цены на
-              металлолом!
-            </p>
-            <p class="services__descr">
-              Помимо переработки лома, наша компания предлагает комплексные
-              услуги, включая оценку состава металлов, вывоз и&nbsp;демонтаж.
-              Мы&nbsp;осуществляем демонтаж любой сложности&nbsp;&mdash;
-              от&nbsp;кораблей и&nbsp;зданий до&nbsp;железнодорожных составов
-              и&nbsp;путей. Наши опытные специалисты и&nbsp;собственный автопарк
-              обеспечивают оперативность и&nbsp;надежность в&nbsp;выполнении
-              задач.
-            </p>
-            <p class="services__descr">
-              Вместе с&nbsp;компанией &laquo;ЭКОЛОМ&raquo; вы&nbsp;получаете
-              не&nbsp;только надежного партнера по&nbsp;переработке металлолома,
-              но&nbsp;и&nbsp;комплексный сервис высочайшего уровня.
-              Мы&nbsp;с&nbsp;удовольствием берем на&nbsp;себя все этапы
-              работы&nbsp;&mdash; от&nbsp;приёмки до&nbsp;вывоза
-              и&nbsp;демонтажа.
-            </p>
+          <div class="services__content flex">
+            <h2 class="section-title services__title">Комплексный сервис</h2>
+            <div class="services__text">
+              <p class="services__descr">
+                Компания &laquo;ЭКОЛОМ&raquo;&nbsp;&mdash; ваш надежный партнер
+                по&nbsp;переработке металлолома в&nbsp;Санкт-Петербурге.
+                Мы&nbsp;стремимся к&nbsp;экологической ответственности,
+                предлагая выгодные условия и профессиональный сервис
+                на&nbsp;всех этапах работы. Гарантируем честность, прозрачность
+                и&nbsp;высокие цены на металлолом!
+              </p>
+              <p class="services__descr">
+                Помимо переработки лома, наша компания предлагает комплексные
+                услуги, включая оценку состава металлов, вывоз и&nbsp;демонтаж.
+                Мы&nbsp;осуществляем демонтаж любой сложности&nbsp;&mdash;
+                от&nbsp;кораблей и&nbsp;зданий до&nbsp;железнодорожных составов
+                и&nbsp;путей. Наши опытные специалисты и&nbsp;собственный
+                автопарк обеспечивают оперативность и&nbsp;надежность
+                в&nbsp;выполнении задач.
+              </p>
+              <p class="services__descr">
+                Вместе с&nbsp;компанией &laquo;ЭКОЛОМ&raquo; вы&nbsp;получаете
+                не&nbsp;только надежного партнера по&nbsp;переработке
+                металлолома, но&nbsp;и&nbsp;комплексный сервис высочайшего
+                уровня. Мы&nbsp;с&nbsp;удовольствием берем на&nbsp;себя все
+                этапы работы&nbsp;&mdash; от&nbsp;приёмки до&nbsp;вывоза
+                и&nbsp;демонтажа.
+              </p>
+            </div>
           </div>
         </div>
       </section>

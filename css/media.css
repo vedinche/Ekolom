@@ -1,29 +1,37 @@
 @media (any-hover) {
 
+	.search-wrap:hover {
+		opacity: 0.8;
+	}
 
+	.header__calc:hover {
+		opacity: 0.8;
+	}
 
-}
+	.social__item:hover {
+		opacity: 0.8;
+	}
 
+	.contacts__tel:hover {
+		opacity: 0.8;
+	}
 
-@media (max-width: 1279px) {
+	.contacts__mail:hover {
+		opacity: 0.8;
+	}
 
+	.btn:hover {
+		opacity: 0.8;
+	}
 
-}
+	.nav__link:hover {
+    background-size: 100% 2px;
+  }
 
-@media (max-width: 1023px) {
+	.video-btn:hover {
+		opacity: 0.8;
+	}
 
+	}
+	
 
-
-}
-
-@media (max-width: 767px) {
-
-
-
-}
-
-@media (max-width: 575px) {
-  
-
-
-}
