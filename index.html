@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Эколом</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top flex">
+          <div class="logo-wrap">
+            <img class="logo" src="img/logo.png" alt="Логотип" />
+            <span class="hours">Ежедневно с 9:00 до 21:00</span>
+          </div>
+          <div class="search-wrap">
+            <form class="search-form" action="#!">
+              <input
+                class="search-form__input"
+                type="text"
+                placeholder="Поиск по сайту"
+              />
+            </form>
+            <span class="search-form__open">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                  stroke="#F95707"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20.9984 21.0004L16.6484 16.6504"
+                  stroke="#F95707"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+          <a class="header__calc" href="#!">Калькулятор</a>
+          <ul class="social list-reset flex">
+            <li class="social__item">
+              <a class="social__link" href="#!">
+                <img
+                  class="social__img"
+                  src="img/icons/whatsApp.svg"
+                  alt="whatsapp"
+                />
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#!">
+                <img
+                  class="social__img"
+                  src="img/icons/Tg.svg"
+                  alt="Telegram"
+                />
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#!">
+                <img
+                  class="social__img"
+                  src="img/icons/viber.svg"
+                  alt="Viber"
+                />
+              </a>
+            </li>
+          </ul>
+          <div class="contacts header__contacts flex">
+            <a
+              class="contacts__tel header__contacts-tel"
+              href="tel:+78129268833"
+            >
+              +7 (812) 926-88-33
+            </a>
+            <a
+              class="contacts__mail header__contacts-mail"
+              href="mailto:info@eco-lom.ru"
+            >
+              info@eco-lom.ru
+            </a>
+          </div>
+          <button class="btn header__btn btn--stroke btn-reset">
+            Перезвоните мне
+          </button>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <nav class="nav">
+            <ul class="nav__list list-reset flex">
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Лотерея</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Металлолом</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Услуги</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Цены</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Пункты приёма</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">О компании</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__left">
+            <h1 class="hero__title">
+              Приём лома чёрных и&nbsp;цветных металлов
+              <span class="hero__title-mod">в&nbsp;Санкт-Петербурге</span>
+            </h1>
+            <div class="hero__btns">
+              <div class="hero__btns-top">
+                <button class="btn hero__btn btn--stroke btn-reset">
+                  Цены на сегодня
+                </button>
+                <button class="btn hero__btn btn--stroke btn-reset">
+                  Как сдать металл
+                </button>
+              </div>
+              <div class="hero__btns-bottom">
+                <button class="btn hero__btn btn--stroke btn-reset">
+                  Отзывы
+                </button>
+                <button class="btn hero__btn btn--stroke btn-reset">
+                  Акции
+                </button>
+              </div>
+            </div>
+            <button class="btn hero__btn btn--fill btn-reset">
+              Оставить заявку
+            </button>
+          </div>
+          <div class="hero__right">
+            <picture class="hero__img">
+              <img src="img/main-img.png" alt="Грузовик" />
+            </picture>
+          </div>
+          <button class="video-btn btn-reset">
+            <img
+              class="video-btn-img"
+              src="img/videoplay-bg.png"
+              alt="Посмотреть видео"
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="container">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <p class="advantages__title">Моментальный расчёт</p>
+              <p class="advantages__descr">
+                Мгновенная оплата по&nbsp;безналичному расчету на&nbsp;месте
+                приёма
+              </p>
+            </li>
+            <li class="advantages__item">
+              <p class="advantages__title">Высокая цена закупки</p>
+              <p class="advantages__descr">
+                Максимальная высокая цена закупки лома на&nbsp;рынке
+                Санкт-Петербурга
+              </p>
+            </li>
+            <li class="advantages__item">
+              <p class="advantages__title">Собственный автопарк</p>
+              <p class="advantages__descr">
+                Свой автопарк, в&nbsp;составе которого более 30&nbsp;единиц
+                спецтехники
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <h2 class="section-title services__title">Комплексный сервис</h2>
+          <div class="services__text">
+            <p class="services__descr">
+              Компания &laquo;ЭКОЛОМ&raquo;&nbsp;&mdash; ваш надежный партнер
+              по&nbsp;переработке металлолома в&nbsp;Санкт-Петербурге.
+              Мы&nbsp;стремимся к&nbsp;экологической ответственности, предлагая
+              выгодные условия и профессиональный сервис на&nbsp;всех этапах
+              работы. Гарантируем честность, прозрачность и&nbsp;высокие цены на
+              металлолом!
+            </p>
+            <p class="services__descr">
+              Помимо переработки лома, наша компания предлагает комплексные
+              услуги, включая оценку состава металлов, вывоз и&nbsp;демонтаж.
+              Мы&nbsp;осуществляем демонтаж любой сложности&nbsp;&mdash;
+              от&nbsp;кораблей и&nbsp;зданий до&nbsp;железнодорожных составов
+              и&nbsp;путей. Наши опытные специалисты и&nbsp;собственный автопарк
+              обеспечивают оперативность и&nbsp;надежность в&nbsp;выполнении
+              задач.
+            </p>
+            <p class="services__descr">
+              Вместе с&nbsp;компанией &laquo;ЭКОЛОМ&raquo; вы&nbsp;получаете
+              не&nbsp;только надежного партнера по&nbsp;переработке металлолома,
+              но&nbsp;и&nbsp;комплексный сервис высочайшего уровня.
+              Мы&nbsp;с&nbsp;удовольствием берем на&nbsp;себя все этапы
+              работы&nbsp;&mdash; от&nbsp;приёмки до&nbsp;вывоза
+              и&nbsp;демонтажа.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
